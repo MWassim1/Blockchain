@@ -1,0 +1,31 @@
+- ex fonction hachage :
++ val + n modulo 5
+
+- demander si grave ou pas qu'on utilise %s dans stockage de protected
+
+- could print first and last value for tests
+
+- infos de la prof sur rapport :
+vision globale du projet
+vision globale théorique
+on essaie de simuler processus électoral,
+partie 1 on fait ça, partie 2 on fait ça
+
+expliquer pour fonctions plus complexes (ex gen données)
+expliquer pourquoi on a choisi notre fonction de hachage
+
+- assurer clés 2 à 2 diff (car identifiants) quand on génère les données
+- vérifier doublons candidats
+
+- change makefile to put all mains in project root, move rapport to separate folder
+
+NOTE TO SELF : don't forget srands!
+
+- spécifier que rapport doit être compilé avec Pandoc (avec config latex marge étendue)
+- décrire fonctionnement du Makefile dans le rapport -> aurait pu ameliorer avec pattern rules et var built in genre $<
+
+- enlever include non utilisés
+
+mention inefficient doublon detection
+on aurait pu passer avec pointeur et pas par copie mais pas fait
+par soucis de simplicite
